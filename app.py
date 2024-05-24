@@ -7,11 +7,11 @@ def main():
     return "Main"
 
 @app.route('/about')
-def main():
+def about():
     return "About"
 
 @app.route('/store')
-def main():
+def store():
     return "Store"
 
 if __name__ == "__main__":
